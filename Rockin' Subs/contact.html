@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>CONTACT</title>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="contact.css">
+ <link rel="stylesheet" href="nav.css">
+ <link rel="icon" href="food.png" type="image/ico" size="16x16">
+
+</head>
+<body>
+ 
+  <div class="box">
+    <div class="dr">
+      <nav>
+        <img src="logo.png" width="320px" height="80px"> 
+        <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="#">Menu <i class="fas fa-caret-down"></i></a>
+              <ul>
+                    <li><a href="#">Veg </a>
+                    <ul>
+                      <li><a href="vegsandwich.html">Sandwich</a></li>
+                      <li><a href="vegsubs.html">Subs</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">NonVeg </a>
+                    <ul>
+                      <li><a href="nonvegsandwich.html">Sandwich</a></li>
+                      <li><a href="nonvegsub.html">Subs</a></li>
+                    </ul>
+                  </li>
+              </ul>
+          </li>
+          <li><a href="order.html">Order</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+ <br> 
+   <div class="content">
+   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3830.3144921909143!2d80.3217099148103!3d16.25564438876605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a76e740000001%3A0xc41c8498715c6da0!2sR.V.R.%20%26%20J.C.College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1634717958389!5m2!1sen!2sin" 
+         width="620" height="605" style="border:0; float: center;" allowfullscreen="" loading="lazy"></iframe>  
+   </div>
+   <form action="contactform.php">
+    <div class="row">
+        <div class="container">
+            <form>
+                    <div class="col-75">
+                        <h3>CONTACT US</h3>
+                        <hr><br>
+                        <label for="fname"><i class="fa fa-user"></i> Name</label>
+                        <input type="text" id="fname" name="fullname"required>
+                        <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                        <input type="text" id="email" name="email" required>
+                        <label for="phone"><i class="fa fa-phone"></i> Phone</label>
+                        <input type="tel" id="phone" name="phone" required>
+                        <label for="msg" name="message"><i class="fa fa-comments"></i> Message</label>
+                        <input type="text" id="msg" name="message" required>     
+                       
+                    </div>
+    
+                <input type="submit" value="Send" class="btnn">
+            </form>
+  </div>
+</div>
+
+</body>
+</html>

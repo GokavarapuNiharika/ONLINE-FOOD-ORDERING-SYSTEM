@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ORDER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="order.css">
+    <link rel="stylesheet" href="nav.css">
+    
+
+    <link rel="icon" href="food.png" type="image/ico" size="16x16">
+
+
+</head>
+<body>
+<nav>
+    <div class="box">
+        <div class="dr">
+          <nav>
+            <img src="logo.png" width="320px" height="80px"> 
+            <ul>
+              <li><a href="Home.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#">Menu <i class="fas fa-caret-down"></i></a>
+                  <ul>
+                        <li><a href="#">Veg </a>
+                        <ul>
+                          <li><a href="vegsandwich.html">Sandwich</a></li>
+                          <li><a href="vegsubs.html">Subs</a></li>
+                        </ul>
+                      </li>
+                      <li><a href="#">NonVeg </a>
+                        <ul>
+                          <li><a href="nonvegsandwich.html">Sandwich</a></li>
+                          <li><a href="nonvegsub.html">Subs</a></li>
+                        </ul>
+                      </li>
+                  </ul>
+              </li>
+              <li><a href="order.html">Order</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+ </nav>
+ <!-- Order form-->
+ <br>
+ <form action="orderform.php">
+    <div class="row">
+        <div class="col-75">
+            <div class="container">
+                <form>
+                    <div class="row">
+                        <div class="col-50">
+                            <h3>Details</h3>
+                            <hr>
+                            <br>
+                            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+                            <input type="text" id="fname" name="Fullname"required>
+                            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+                            <input type="text" id="email" name="Email" required>
+                            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+                            <input type="text" id="adr" name="Address"  required>
+
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="state">State</label>
+                                    <input type="text" id="state" name="State" required>
+                                </div>
+                                <div class="col-50">
+                                    <label for="item">Price</label>
+                                    <input type="text" id="item" name="Item" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-50">
+                            <h3>Payment</h3>
+                            <hr>
+                            <br>
+                            <label for="fname">Accepted Cards</label>
+                            <div class="icon-container">
+                                <i class="fa fa-cc-visa" style="color:navy; font-size: 32px;"></i>
+                                <i class="fa fa-cc-mastercard" style="color:red; font-size: 32px;"></i>
+                                <i class="fa fa-cc-amex" style="color:blue; font-size: 32px;"></i>
+                                <i class="fa fa-cc-discover" style="color:orange; font-size: 32px;"></i>
+                            </div>
+
+                            <label for="cname">Card owner</label>
+                            <input type="text" id="cname" name="Cardowner" required>
+                            <label for="ccnum">Card number</label>
+                            <input type="text" id="ccnum" name="Cardnumber" required>
+                            <div class="row">
+                                <div class="col-50">
+                                    <label for="expyear">Exp Date</label>
+                                    <input type="date" id="expyear" name="Expdate" required>
+                                </div>
+                                <div class="col-50">
+                                    <label for="cvv">CVV Code</label>
+                                    <input type="text" id="cvv" name="CVcode" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="submit" value="Continue to order" class="btnn">
+                </form>
+            </div>
+        </div>
+    </form>
+</div>
+</body>
+</html>
