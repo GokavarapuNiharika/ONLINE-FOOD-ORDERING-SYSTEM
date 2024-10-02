@@ -5,6 +5,25 @@
 The following are runtime GUI developed in the application along with functionality:
 
 ##### HOME PAGE
-![HOME PAGE] (https://github.com/GokavarapuNiharika/ONLINE-FOOD-ORDERING-SYSTEM/blob/502adc75df22bc531f9935a75d469663e9fd6360/images/HOME%20PAGE.png)
+![HOME PAGE](https://github.com/user-attachments/assets/07d0cdbe-e122-4256-a5b8-81b9fcd4816f)
 
 ##### SIGNUP PAGE
+![SIGNUP PAGE](https://github.com/user-attachments/assets/ab95ffdc-32e2-42b7-a0d6-e163bfe231dc)
+
+##### LOGIN PAGE
+![LOGIN PAGE](https://github.com/user-attachments/assets/6db5e93a-ae59-4f94-9caa-51f3fdd800f1)
+
+##### ABOUTUS PAGE
+![ABOUTUS PAGE](https://github.com/user-attachments/assets/2a816220-4247-4ce0-b7ef-7bdea585c53b)
+
+##### ORDER PAGE
+![ORDER PAGE](https://github.com/user-attachments/assets/9e7f9c26-4ad3-45b3-92e5-fe01ec26947c)
+
+##### CONTACT PAGE
+![CONTACT PAGE](https://github.com/user-attachments/assets/fe4d0500-128f-400c-944a-dc2be5101906)
+
+
+
+
+
+
